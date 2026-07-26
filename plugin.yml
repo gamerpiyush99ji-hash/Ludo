@@ -1,0 +1,13 @@
+name: MiniGames
+version: '1.0'
+main: com.miniverse.minigames.MiniGamesPlugin
+api-version: '1.20'
+author: Claude
+description: Play Tic-Tac-Toe and Ludo directly on your Minecraft server!
+commands:
+  ttt:
+    description: Challenge a player to Tic-Tac-Toe
+    usage: /ttt challenge <player> | /ttt accept <player>
+  ludo:
+    description: Play Ludo with up to 4 players
+    usage: /ludo join | /ludo start | /ludo roll | /ludo move <1-4>
